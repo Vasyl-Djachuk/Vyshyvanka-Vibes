@@ -1,0 +1,72 @@
+.your-order {
+  background-color: inherit;
+}
+.order-title {
+  max-width: 335px;
+  color: #fcf9f9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+}
+.order-title-span {
+  color: #ecd979;
+}
+.order-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.order-form-input {
+  width: 100%;
+  height: 47px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  padding-left: 16px;
+  outline: transparent;
+  color: rgba(252, 249, 249, 0.5);
+  font-family: Manrope;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+.order-form-input::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+  font-family: Manrope;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+.order-form-text-comment {
+  width: 100%;
+  height: 196px;
+  background-color: transparent;
+  outline: transparent;
+  border-radius: 8px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  resize: none;
+  padding: 14px 16px;
+}
+.order-button {
+  width: 145px;
+  height: 49px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.order-buton-svg {
+  fill: #ecd979;
+}
+.order-buton-svg use {
+  display: inline-block;
+}
