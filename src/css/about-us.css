@@ -22,6 +22,8 @@
   color: rgba(252, 249, 249, 0.4);
   font-size: 14px;
   letter-spacing: -0.04em;
+}
+.about-text-wraper {
   margin-bottom: 50px;
 }
 .about-us-background-png {
@@ -74,5 +76,18 @@
   .about-us-container {
     display: flex;
     column-gap: 50px;
+    align-items: center;
+  }
+  .about-us-text {
+    max-width: 436px;
+  }
+  .about-us-text-second {
+    max-width: 436px;
+  }
+  .about-text-wraper {
+    margin-bottom: 0;
+  }
+  .about-us-text-second {
+    margin-bottom: 0;
   }
 }
